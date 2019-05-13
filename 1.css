@@ -1,0 +1,92 @@
+<style type="text/css">
+			header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				color: #666666; /* позиции фона */
+				background-color: #FF8C00;
+				background-image: url("dark-wood.jpg"); 
+				background-position: center; 
+				font-family: Georgia, Times, serif; /* задает шрифт, который будет использоваться  для оформления текста содержимого */
+				line-height: 1.4em; /* межстрочный интервал */
+				margin: 0px;} /* отступ */
+			.wrapper {    /* оболочка. там где будет находиться сайт, внутри границы */
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000; /* Параметры границы , solid-стиль рамки*/
+				background-color: #ffffff;} /* цвет фона страницы внутри границы */
+			header {
+				height: 150px;
+				background-position:center-right; 
+				background-image: url(header.jpg);} /* цвет картинки в заголовке */
+			h1 { /* заголовок первого уровня */
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			nav, footer { /*подвал*/
+				clear: both;
+				color: #000000; /*цвет текста*/
+				background-color: #F4A460; /*цвет подвала*/
+				height: 40px;} /* ширина подвала*/
+			nav ul { /*меню*/
+				margin: 0px;
+				padding: 5px 0px 5px 30px;} 
+			nav li { /*расположение текста меню*/
+				display: inline;
+				margin-right: 30px;}
+			nav li a {  /*цвет текста меню*/
+				color: #ffffff;}
+			nav li a:hover, nav li a.current { /*цвет текста "Главная"*/
+				color: #000000;}
+			section.courses {
+				float: left;
+				width: 660px;
+				border-right: 5px solid #F4A460;} 
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {    
+				float: left;  
+				width: 290px; /* размеры блока */
+				height: 200px;/* размеры блока */
+				padding: 10px; /* отступ блока от края листа страницы */
+				margin: 20px; 
+				border: 1px solid #eeeeee;}/* Параметры границы , solid-стиль рамки*/
+			figcaption {
+				font-size: 100%; /*размер текста*/
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;} /* Жирное начертание */
+			h2 {
+				margin: 5px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}
+		</style>
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
